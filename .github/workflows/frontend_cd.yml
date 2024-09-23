@@ -8,10 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on:
-      - self-hosted
-      - spring
-      - develop
+    runs-on: ubuntu-latest
     env:
       frontend-directory: ./frontend
     steps:
